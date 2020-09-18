@@ -2,7 +2,7 @@
 
 A Tribute page created for the Responsive Web Design Certification on FreeCodeCamp.
 
-# Visit this Portfolio
+# Visit this Tribute page
 
 https://dobbe2.github.io/codeCampTributePage/
 
