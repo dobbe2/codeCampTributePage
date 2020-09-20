@@ -7,6 +7,11 @@ body {
       background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlA1yq8bKZEpmoEUejAr2-S7mW6aXDPb-tKQ&usqp=CAU) no-repeat center top fixed; 
     background-size: cover;
   }
+
+  a {
+    color: red;
+  }
+
   #title {
     text-align:center;
     color:#f10202;
@@ -26,10 +31,11 @@ body {
     max-width: 100%;
     margin:0 25%;
     border-radius:50%;
+    transition: all 0.5s ease-out;
   }
   
   #image:hover{
-    box-shadow: 0 10px 20px #d6793e, 0 10px 10px orange;
+    box-shadow: -4px -2px 20px #d6793e, 4px 1px 20px orange;
     transition: all 0.5s ease-in;
   }
   
@@ -43,9 +49,23 @@ body {
   #tribute-info {
     text-align:center;
     color:white;
-    margin: 50px;;
+    margin: 50px 50px 0;
+    background-color: rgba(0, 0, 0, .3);
   }
   
+  ul {
+    padding: 15px;
+  }
+
+  li {
+    list-style: none;
+      width: 70%;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.5em;
+  }
+
   #learn-more {
     text-align:center;
     color:white;
